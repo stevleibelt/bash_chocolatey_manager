@@ -1,9 +1,30 @@
 # Description
 
-This is a simple wrapper to backup and restore packages maintained by chocolatey.
+This is free as i freedom simple wrapper to backup and restore packages maintained by chocolatey.
+
+The current change log can be found [here](CHANGELOG.md).
 
 The "restore.sh" will install chocolatey if not installed.
 The "backup.sh" will create a local file containing the currently installed packages.
+
+# Important chocolatey commands you should know
+
+```
+#search for software
+choco search <pattern>
+
+#install software
+choco install <software>[,<software>[,...]]
+
+#upgrade all installed software
+choco upgrade all
+
+#remove software
+choco uninstall <software>[,<software>[,...]]
+
+#display help
+choco /?
+```
 
 # Mandatory environment
 
